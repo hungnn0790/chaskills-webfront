@@ -21,8 +21,12 @@
     "react-router": "^2.6.1"
   },
   "devDependencies": {
-    "babel-loader": "^6.2.10",
-    "http-server": "^0.9.0",
-    "webpack": "^1.13.3"
+    "babel-loader": "^7.1.1",
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "http-server": "^0.10.0",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "webpack": "^3.4.1"
   }
 }
