@@ -2,7 +2,7 @@ import React, { PureComponent } from 'react';
 import { Link } from 'react-router';
 import Characterise from './Characterise';
 
-export default class ProfilesManager extends PureComponent {
+export default class ProfileManager extends PureComponent {
   render () {
     const { characterises } = this.props;
     return (

@@ -1,13 +1,11 @@
 "use strict";
 
 const merge = require('webpack-merge');
-
 const PATHS = require('./webpack-paths');
 const loaders = require('./webpack-loaders');
-
 const common = {
-    entry: { // The entry file is index.js in /client/src
-        app: PATHS.src 
+    entry: { // The entry file is index.js in /src
+        app: ['babel-polyfill', PATHS.src]
     },
     output: { // The output defines where the bundle output gets created
         path: PATHS.dist,
@@ -45,5 +43,4 @@ switch(process.env.NODE_ENV) {
         );
 }
 
-// We export the config
 module.exports = config;

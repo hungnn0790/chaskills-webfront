@@ -1,6 +1,6 @@
-import HomeContainer from './HomeContainer';
+import ProfileContainer from './ProfileContainer';
 
 // We export all the containers at once
 export {
-  HomeContainer
+  ProfileContainer
 };

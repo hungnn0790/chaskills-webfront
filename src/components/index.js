@@ -3,7 +3,7 @@ import Home from './Home';
 import About from './About';
 import ChallengesManager from './ChallengesManager';
 import Characterise from './Characterise';
-import ProfilesManager from './ProfilesManager';
+import ProfileManager from './ProfileManager';
 
 export { 
 	Layout, 
@@ -11,5 +11,5 @@ export {
 	About, 
 	ChallengesManager, 
 	Characterise, 
-	ProfilesManager
+	ProfileManager
 };
